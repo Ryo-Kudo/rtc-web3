@@ -48,7 +48,7 @@ export const pages: Page[] = [
 
 const Routes = () => {
   return (
-    <BrowserRouter basename="/ciscryp">
+    <BrowserRouter basename="/">
       <ScrollToTop />
       <SiteHeader />
       <Switch>
